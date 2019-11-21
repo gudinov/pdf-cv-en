@@ -282,6 +282,7 @@ address.text_animation-line::after {
 
 @media print {
     .about {
-        margin-right: 3%;
+        padding: 5%;
+        margin-right: 8%;
     }
 }
