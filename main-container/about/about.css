@@ -1,5 +1,5 @@
 .about {
-    padding: 2em;
+    padding: 10%;
 }
 
 .about__hello ul {
@@ -11,7 +11,7 @@
 }
 
 .about__education h3 {
-    color: #909090;
+    color: #636363;
     margin-bottom: 0;
 }
 
@@ -60,7 +60,7 @@
 }
 
 .about__contact h3 {
-    color: #909090;
+    color: #636363;
     margin: 0;
     display: inline-block;
     transition: color 0.3s ease-out;
@@ -278,4 +278,10 @@ address.text_animation-line::after {
     opacity: 0;
     transform: translateY(600%);
     animation: queueRightAwake1 .2s ease-in forwards;
+}
+
+@media print {
+    .about {
+        margin-right: 3%;
+    }
 }
