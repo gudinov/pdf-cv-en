@@ -5,14 +5,14 @@
 .avatar__photo {
     display: block;
     margin: auto;
+	width: 150px;
+	height: 150px;
 }
 
 .avatar__photo_circle {
     padding: 3px;
     background: linear-gradient(to right, #f3cf14, #9c5bbd);
-    border-radius: 60px;
-    width: 103px;
-    height: 103px;
+    border-radius: 100px;
 }
 
 .avatar__photo_float-animation {

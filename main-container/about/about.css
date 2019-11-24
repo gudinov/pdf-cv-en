@@ -59,23 +59,34 @@
     margin-left: .2em;
 }
 
-.about__contact h3 {
+.about__contact .location {
     color: #636363;
     margin: 0;
     display: inline-block;
     transition: color 0.3s ease-out;
 }
 
-.about__contact h3.text_animation-line::after {
+.about__contact .location.text_animation-line::after {
 	background-color: #940a0a;
 }
 
-.about__contact h3:hover,
-.about__contact h3:focus {
+.about__contact .location:hover,
+.about__contact .location:focus {
 	color: #940a0a;
 }
 
-address.text_animation-line::after {
+.email,
+.mobile,
+.website,
+.skype,
+.vk,
+.telegram {
+    color: #222222;
+}
+
+.email.text_animation-line::after,
+.mobile.text_animation-line::after,
+.website.text_animation-line::after {
     background-color: #222222;
 }
 
